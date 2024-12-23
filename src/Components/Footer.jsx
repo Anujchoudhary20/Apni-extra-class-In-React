@@ -53,7 +53,7 @@ const Footer = () => {
                 {/* <img src="./image/images.jfif" alt=""  style={{borderRadius:"50%"}} /> */}
                     <h3>Contact Us</h3>
                     <ul className="footer_ul">
-                        <li>Email: anujchoudhary207@gmail.com</li>
+                        <li>Email: anujchoudhary2072@gmail.com</li>
                         <li>Contact: (+91) 6261020033</li>
                         <li>Address: Sanwer Dist, Indore 453551</li>
                     </ul>
