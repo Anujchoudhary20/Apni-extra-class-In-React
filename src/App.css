@@ -308,11 +308,35 @@ cursor: pointer;
 }
 
 
-.Profile{
-  background-color: red;
+.Profile-componet{
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-around;
   margin: 70px 30px;
   padding: 5px;
+  align-items: center;
+  flex-wrap: wrap;
 
+}
+.profile-img{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+.profile-div h2{
+  padding: 10px 0px;
+}
+.profile-div button{
+  background-color: rgba(255, 0, 0, 0.623);
+  color: white;
+  font-size: larger;
+  cursor: pointer;
+
+  &&:hover{
+    background-color: red;
+    transition: 0.4 ease-in-out;
+
+  }
 }
 
 

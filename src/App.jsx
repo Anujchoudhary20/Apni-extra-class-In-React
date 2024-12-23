@@ -10,7 +10,7 @@ import Login from "./Components/Login";
 import Registration from "./Components/Registration";
 import ForgotPassword from "./Components/ForgotPassword";
 import Profile from "./Components/Profile";
-import Ba from "./Components/Ba";
+// import Ba from "./Components/Ba";
 
 // const ProtectedRoute = ({ children }) => {
 //   const isLoggedIn = !!JSON.parse(localStorage.getItem("userLogInformation"));
