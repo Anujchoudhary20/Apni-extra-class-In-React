@@ -323,6 +323,12 @@ cursor: pointer;
   height: 300px;
   border-radius: 50%;
 }
+.profile-div{
+  margin: 10px 0px;
+  border: 2px solid black;
+  padding: 20px ;
+  border-radius: 5px;
+}
 .profile-div h2{
   padding: 10px 0px;
 }
