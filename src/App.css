@@ -1,0 +1,395 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+.maincontenae{
+  overflow: hidden;
+  width: 100%;
+}
+body {
+  font-family: Times;
+}
+nav{
+  /* position: fixed; */
+  top: 0;
+  width: 100%;
+  height: 80px;
+  background: green;
+ }
+ .logo{
+  
+  font-size: 30px;
+  
+  margin: 0 30px;
+  line-height: 80px;
+ }
+ .logo a{
+  text-decoration: none;
+  color: white;
+ }
+ nav ul{
+  float: right;
+  list-style: none;
+  
+ }
+ nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  
+
+ }
+ nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  text-transform: capitalize;
+  padding: 8px 20px;
+  margin: 10px;
+ }
+ nav ul li a:hover{
+  color: green;
+  background: white;
+ }
+ #checkbtn{
+  float: right;
+  line-height: 80px;
+  margin-right: 30px;
+  color: white;
+  display: none;
+ }
+ #check{
+  display: none;
+ }
+ #check:checked ~ ul {
+  right: 0;
+}
+
+
+.main_content {
+  /* paddin */
+  margin: 60px 30px; 
+  font-size: 20px;
+  /* background-color: red; */
+  padding: 10px;
+}
+
+.heading {
+  color: green;
+  text-align: center;
+  font-style: oblique;
+  padding: 10px;
+}
+img{
+  width: 100%;
+  height: 100%;
+  max-width: 900px;
+  min-width: 300px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vocab{
+  margin: 70px 0px;
+}
+.question {
+  font-style: inherit;
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: underline;
+  color: rgb(202, 18, 18);
+  margin-top: 20px;
+}
+
+.paragraph {
+  font-size: 20px;
+  padding: 10px 0px;
+  margin: 10px;
+  text-align: justify;
+}
+
+.ol_list {
+  text-align: justify;
+  font-size: 20px;
+  padding: 20px;
+  margin: 10px;
+  font-style: oblique;
+}
+strong{
+  font-size: 30px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+.footer_child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+
+.footer_ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer_ul li {
+  margin-bottom: 10px;
+}
+
+.footer_ul li a {
+
+  color: white;
+  text-decoration: none;
+}
+
+.footer_ul li a:hover {
+  text-decoration: underline;
+}
+/* vicab section */
+.section1{
+  text-align: justify;
+  font-size: larger;
+  font-style: oblique;
+  margin: 5px 30px;
+  padding: 10px;
+}
+
+.vocabulary{
+  font-size: 25px;
+  margin: 20px;
+  padding: 10px 30px;
+  align-items: center;
+  text-align: justify;
+ 
+}
+
+/* sentences */
+.sentences{
+  
+  font-size: 20px;
+  margin: 70px 30px;
+  padding: 10px;
+}
+
+.Register-head {
+  width: 100vw;
+  height: 100vh;
+/* background-color: rgb(240, 239, 238); */
+display: flex;
+text-align: center;
+justify-content: center;
+align-items: center;
+
+/* transition: 2s ease-in; */
+}
+
+.Register-img{
+  width: 100%;
+  height: 100%;
+
+}
+
+.Register-div1{
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+  width:800px;
+  box-shadow: 1px 1px 2px 2px rgba(216, 200, 200, 0.719);
+
+
+}
+.input{
+  display: flex;
+  /* align-items: center; */
+  /* text-align: center; */
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+padding: 40px;
+  background-color: rgba(4, 4, 134, 0.192);
+  width:400px ;
+  /* padding: 100px; */
+  height: 400px;
+  border-radius: 0 10px 10px  0px;
+}
+
+.input input {
+  /* text-align: left; */
+  border: none;
+  width: 340px;
+  padding: 10px 5px;
+  margin: 5px 3px;
+  /* gap: 10px; */
+
+  border-radius: 5px;
+
+}
+.input button:hover{
+color: white;
+background-color: green;
+transition: 0.5s ease-in;
+font-weight: bold;
+cursor: pointer;
+}
+/* aboutsection */
+
+.about{
+  margin-top: 70px;
+}
+.section2{
+  text-align: justify;
+  font-size: 30px;
+  margin: 10px 20px;
+  padding: 10px 20px;
+}
+.heading1{
+  color: green;
+  text-align: center;
+  font-style: oblique;
+  padding: 17px;
+  font-size: 35px;
+
+}
+/* ForgotPage section */
+
+.forgatPasswored{
+  min-height: 90vh;
+  
+  max-width: 100vw;
+  
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.forgatPasswored-cantener{
+  display: flex;
+  margin: 10px;
+  
+  flex-direction: column;
+  background-color: rgba(4, 4, 134, 0.192);
+  border-radius: 10px;
+  width: 400px;
+  padding: 20px;
+}
+.forgatPasswored-Input{
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+
+}
+.forgatPasswored-Input input,button{
+  border: none;
+  width: 340px;
+  padding: 10px 5px;
+  margin: 5px 3px;
+  border-radius: 5px;
+
+}
+.forgatPasswored-Input button:hover{
+  background-color: green;
+  color: white;
+  transition: 0.5s ease-in;
+}
+
+
+.Profile{
+  background-color: red;
+  margin: 70px 30px;
+  padding: 5px;
+
+}
+
+
+
+
+
+
+
+@media(max-width : 860px){
+        
+  #checkbtn{
+      display: block;
+  }
+ 
+  nav{
+    position: fixed;
+ top: 0;
+  }
+  nav ul{
+      width: 100%;
+      height: 28vh;
+      background-color: green;
+      position: fixed;
+      top: 80px;
+      right: -100%;
+      transition: 0.5s;
+  }
+  nav ul li{
+      display: block;
+      text-align: center;
+      line-height: 30px;
+     
+
+
+  }
+  /* App.js */
+  .app-div{
+    /* background-color: red; */
+    padding-top: 80px;
+  }
+  
+
+  .footer_child{
+      display: inline;
+       justify-content: space-between;
+      align-items: center;
+      font-size: 23px;
+      margin-bottom: 20px;
+  }
+  .Register-head div,.forgatPasswored-cantener{
+    border-radius: 10px;
+    /* background-color: red; */
+  }
+  .Register-div1{
+    /* background-color: green; */
+   
+    width: auto;
+  }
+  
+  .Register-img{
+    display: none;
+  }
+  .input{
+    width: auto;
+    /* background-color: red; */
+  }
+  .input input,button{
+    width: auto;
+  }
+  .input label{
+    /* background-color: red; */
+    margin: 0 10px;
+  }
+  .div-forgatpassword{
+    padding: 20px;
+    /* background-color: red; */
+  }
+
+
+}
