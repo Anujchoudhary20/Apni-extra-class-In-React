@@ -27,6 +27,7 @@ const Navbar = () => {
     { text: "Vocabulary", path: "/vocabulary" },
     { text: "Sentence", path: "/sentence" },
     { text: "About", path: "/about" },
+    { text: "Quiz", path: "/quiz" },
     isLoggedIn
       ? { text: "Profile", path: "/profile" }
       : { text: "LogIn", path: "/login" },

@@ -70,14 +70,15 @@ const [image, setImage] = useState("")
       <div className="profile-div">
        <input
           type="file"
+          className="profile-input"
           accept="image/*"
           onChange={hendeluplodeimage}
           style={{display: "block"}}
         />
         <strong  style={{display:"flex",justifyContent: "center"}}>Profile</strong>
         
-        <h2>Name  {userData.name}</h2>
-        <h2>Email {userData.email}</h2>
+        <h2>Name :- {userData.name}</h2>
+        <h2>Email:- {userData.email}</h2>
          <button onClick={HandleLogOut}>Logout</button>
 
         

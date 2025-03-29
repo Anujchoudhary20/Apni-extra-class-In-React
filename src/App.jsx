@@ -10,7 +10,9 @@ import Login from "./Components/Login";
 import Registration from "./Components/Registration";
 import ForgotPassword from "./Components/ForgotPassword";
 import Profile from "./Components/Profile";
-// import Ba from "./Components/Ba";
+import Quiz from "./Components/Quiz/Quiz";
+import ScrollToTop from "./Components/ScrollToTop";
+
 
 // const ProtectedRoute = ({ children }) => {
 //   const isLoggedIn = !!JSON.parse(localStorage.getItem("userLogInformation"));
@@ -26,7 +28,9 @@ const App = () => {
   return (
     <div>
       {showNavbar && <Navbar/>}
+      <ScrollToTop/>
       <div className="Router-div">
+        
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/about" element={<About />} />
@@ -34,8 +38,9 @@ const App = () => {
         <Route path="/signup" element={<Registration />} />
         <Route path="/forgotpassword" element={<ForgotPassword />} />
         <Route path="/profile" element={<Profile/>} />
-        <Route path="/sentence" element={isLoggedIn  ? <Sentense />: <Navigate to="/login" />} />
-        <Route path="/vocabulary" element={isLoggedIn ?<Vocabulary /> :<Navigate to="/login" />} />
+        <Route path="/quiz" element={isLoggedIn ? <Quiz/>: <Navigate to="/login"/>} />
+        <Route path="/sentence" element={isLoggedIn  ? <Sentense />: <Navigate to="/login"/>} />
+        <Route path="/vocabulary" element={isLoggedIn ?<Vocabulary /> :<Navigate to="/login"/>} />
       </Routes>
       {showNavbar && <Footer />}
       </div>

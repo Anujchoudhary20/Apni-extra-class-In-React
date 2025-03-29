@@ -1,4 +1,5 @@
 import React from 'react'
+import BookImage from "../assets/imagebook.jpg"
 
 const Home = () => {
   return (
@@ -8,7 +9,7 @@ const Home = () => {
     <p className="paragraph">
         अंग्रेजी सीखना कोई मुश्किल काम नहीं है। थोड़ी सी मेहनत और सही दिशा में प्रयास से कोई भी अंग्रेजी भाषा में निपुण हो सकता है। English सीखने के लिए सबसे पहले हमें अपने डर को दूर करना होगा। रोज़मर्रा की बातचीत में छोटे-छोटे वाक्य और शब्दों का प्रयोग शुरू करें। धीरे-धीरे अभ्यास बढ़ाएं और खुद को इंग्लिश के माहौल में रखें। किताबें पढ़ें, इंग्लिश गाने सुनें, और फिल्में देखें। इस तरह से आप आसानी से और मज़ेदार तरीके से इंग्लिश सीख सकते हैं। Keep practicing and stay confident!
     </p>
-    <img src="./image/imagebook.jpg" alt=""/>
+  <img src={BookImage} alt=""/>
     <p className="question">क्यों English सीखना है महत्वपूर्ण?</p>
     <p className="paragraph">आज के समय में, English सीखना बहुत महत्वपूर्ण है। यह एक global language है जो आपको worldwide communication में मदद करती है। चाहे आप बेहतर career opportunities ढूंढ रहे हों, higher education के लिए विदेश जाना चाहते हों, या फिर सिर्फ अपनी personal development के लिए English सीखना चाहते हों, यह language आपके लिए अनेक दरवाजे खोल सकती है। English की knowledge से आप international level पर अपने ideas और opinions को आसानी से व्यक्त कर सकते हैं और दूसरों के साथ effectively communicate कर सकते हैं।</p>
     <p className="question">How Can We Help You Learn English?</p>

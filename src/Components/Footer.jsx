@@ -32,6 +32,8 @@ const Footer = () => {
           "text": "Vocabulary",
           "path":"/vocabulary"
         },
+        { "text": "Quiz",
+           "path": "/quiz" },
         {
           "text": "Sentence",
           "path":"/sentence"
